@@ -1,0 +1,169 @@
+*{
+    box-sizing: border-box;
+}
+
+
+html,
+body{
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+
+img{
+    width: 200px;
+    height: 200px;
+    justify-content: center;
+}
+
+#img{
+    position:relative;
+    
+    margin-left: 40%;
+
+    margin-top: 30px;
+
+}
+
+.flag{
+    width: 15px;
+    height: 10px;
+}
+
+nav{
+    background-color: #3A98B9;
+    color: aliceblue;
+    display: flex;
+    padding: 20px;
+
+}
+
+nav p{
+    margin-left: 20px;
+}
+
+ul{
+    list-style: none;
+    margin-left: 340px;
+}
+
+li{
+    display: inline;
+    margin-right: 20px;
+
+}
+
+    
+
+.section2-item h3{
+    text-align: center;
+    color: #018383;
+
+    
+}
+
+.section2-item p{
+    text-align: center;
+    color:rgb(82, 80, 80);
+
+    
+}
+
+.section-3{
+    background-color:#3A98B9;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.section3-item1{
+    width: 40%;
+    margin-right: 80px;
+    margin-left: 40px;
+  }
+  
+  .section3-item2{
+    margin-right: 80px;
+    margin-left: 40px;
+
+  }
+
+  .section-4{
+    padding: 30px;
+  }
+
+.section4-item{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 40px;
+    margin-right: 40px;
+
+}
+
+
+.section4-item1{
+    max-width: 30%;
+    background-color:#018383;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    
+}
+.section4-item2{
+    max-width: 30%;
+    background-color:#018383;
+    color: white;
+    text-align: center;
+    padding: 8px;
+
+}
+.section4-item3{
+    max-width: 30%;
+    background-color:#018383;
+    color: white;
+    text-align: center;
+    padding: 15px;
+
+ 
+}
+
+  .section4-p {color: teal;
+    margin-left: 40px;
+    font-size: 1.25rem;
+    font-weight: 600;
+
+
+  }
+
+  .section-5{
+    background-color: #3A98B9;
+    text-align: center;
+    color: white;
+    padding: 30px;
+  }
+
+  #social-links a{
+    color:#bcd4dd;
+    text-decoration: none;
+    margin-left: 10px;
+    font-size: 1.25rem;
+  }
+
+   
+  
+  /* Styles for screens smaller than 768 pixels */
+  @media screen and (max-width: 670px) {
+    body{
+        
+      max-width: 100%;
+      overflow: hidden;
+    }
+}
+    
+  
+  
+  
+  
